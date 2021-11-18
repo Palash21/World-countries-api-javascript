@@ -1,0 +1,35 @@
+section h1{
+    text-align: center;
+    color: cadetblue;
+}
+section span{
+   color: brown;
+   font-weight: bolder;
+}
+
+#countriesShow{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.country{
+    background-color: cadetblue;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+} 
+.country button{
+    background-color: brown;
+    padding: 8px;
+    border-radius: 4px;
+    color: #fff;
+} 
+#country-detail{
+    background-color: brown;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+}
